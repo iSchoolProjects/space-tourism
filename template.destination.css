@@ -82,7 +82,7 @@
     margin-inline: 0px;
 }
 .width-of-the-links{
-    width: 60%;
+    width: 70%;
 }
 
 .hr-tag{
@@ -98,11 +98,17 @@ body{
     color: white;
     box-sizing: border-box;
 }
-.width-of-the-links div a{
+.width-of-the-links ul li a{
     text-decoration: none;
     color: #ffff;
 }
-.width-of-the-links div a:active, .width-of-the-links div a:focus {
+.width-of-the-links ul li a:active, .width-of-the-links ul li a:focus {
     border-bottom: solid #fff 4px;
     padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
 }
