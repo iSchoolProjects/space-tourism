@@ -1,0 +1,41 @@
+:root {
+  --col-dark: #0b0d17;
+  --col-neutral: #d0d6f9;
+  --col-light: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+.subheading-primary {
+  font-family: 'Bellefair', serif;
+}
+h5,
+p,
+.subheading-secondary {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 9.375rem;
+}
+h2 {
+  font-size: 6.25rem;
+}
+h3 {
+  font-size: 3.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5,
+.subheading-primary {
+  font-size: 1.75rem;
+}
+.subheading-secondary {
+  font-size: 0.875rem;
+}
+p {
+  font-size: 1.125rem;
+}
