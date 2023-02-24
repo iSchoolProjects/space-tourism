@@ -58,7 +58,7 @@
 body{
     color: white;
     box-sizing: border-box;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .planets-links ul li a{
