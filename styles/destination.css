@@ -5,16 +5,11 @@
     background-size: cover;
 }
 
-.width-of-the-content{
-    text-align: center;
-}
-
 .planet-image{
     width: 75%;
     margin-inline: auto;
 }
 }
-
 
 @media screen and (max-width: 768px) {
     .background-image{
@@ -23,14 +18,8 @@
     background-size: cover;
 }
 
-
 .center-the-content{
     width: 75%;
-    margin-inline: auto;
-}
-
-.width-of-the-content{
-    text-align: center;
     margin-inline: auto;
 }
 
@@ -43,9 +32,7 @@
     width: 300px;
     margin-inline: auto;
 }
-
 }
-
 
 @media screen and (min-width: 769px) {
     .background-image{
@@ -53,11 +40,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-
-.width-of-the-content{
-    text-align: start;
-}
 
 .planet-image{
     width: 480px;
@@ -73,12 +55,11 @@
 }
 }
 
-
 body{
     color: white;
     box-sizing: border-box;
+    height: 100vh;
 }
-
 
 .planets-links ul li a{
     text-decoration: none;
@@ -87,7 +68,6 @@ body{
 ul{
 list-style-type: none;    
 }
-
 
 .active{
     border-bottom: 4px solid #ffffff;
