@@ -1,0 +1,85 @@
+
+@media screen and (max-width: 768px) {
+body{
+    background-image: url(../assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+ h1{
+    font-size: 80px;
+ }
+ h5{
+    font-size: 16px;
+ }
+ p{
+    font-size: 15px;
+ }
+.menu-bg{
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.7742px);
+}
+
+.btn-close-color{
+    color:#D0D6F9;
+}
+.subheading-5 {
+    font-size: 20px;
+}
+.text-color{
+    color: #D0D6F9;
+}
+
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+
+h1{
+    font-size: 150px;
+}
+h5{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+ }
+ .subheading-5 {
+    font-size: 32px;
+}
+ .text-color{
+    color: #D0D6F9;
+}
+.menu-bg{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(23.7742px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: url(../assets/home/background-home-desktop.jpg);
+        background-size: 106% 1335px;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        background-position: -71px 0;
+    }
+    .nav{
+        position: relative;
+    }
+    .nav::before{
+        content: '';
+        height: 1px;
+        position: absolute;
+        width: 60%;
+        background: #fff;
+        opacity: .25;
+        left: -55%;
+        top: 50%;
+    }
+}
+

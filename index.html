@@ -1,27 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="d-lg-flex flex-column">
+    <div class="container-fluid g-0">
+      <div class="row g-0">
+        <div class="col-12">
+          <div class="row gx-0">
+            <div class="col-5 d-none d-md-block mt-lg-4">
+              <a href="./index.html">
+                <img
+                  class="mt-2 mt-md-3 ms-md-4 ms-lg-5 ps-md-1"
+                  src="./assets/shared/logo.svg"
+                  alt=""
+                />
+              </a>
+            </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+            <div class="col-7 menu-bg d-none d-md-block mt-lg-4">
+              <ul
+                class="nav justify-content-md-end justify-content-lg-start pt-md-4"
+              >
+                <div class="ms-lg-5 ps-lg-5 me-lg-4">
+                  <li class="nav-item ms-lg-5">
+                    <a
+                      class="nav-link active pb-md-4 text-white border-3 border-bottom px-1"
+                      aria-current="page"
+                      href="./index.html"
+                      ><b class="d-lg-inline d-md-none">00</b> Home</a
+                    >
+                  </li>
+                </div>
 
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
+                <li class="nav-item me-lg-4">
+                  <a class="nav-link text-white" href="#"
+                    ><b class="d-lg-inline d-md-none">01</b> Destination</a
+                  >
+                </li>
+                <li class="nav-item me-lg-4">
+                  <a class="nav-link text-white" href="#"
+                    ><b class="d-lg-inline d-md-none">02</b> Crew</a
+                  >
+                </li>
+                <li class="nav-item pe-md-2">
+                  <a class="nav-link text-white pe-md-5" href="#"
+                    ><b class="d-lg-inline d-md-none">03</b> Technology</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-  Explore
+          <nav class="navbar navbar-expand-md bg-body-transparent">
+            <div class="container-fluid">
+              <a class="d-md-none d-block" href="./index.html">
+                <img
+                  class="mt-2 mt-md-0 ms-md-4"
+                  src="./assets/shared/logo.svg"
+                  alt=""
+                />
+              </a>
 
-</body>
+              <button
+                class="navbar-toggler d-md-none3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="./assets/shared/icon-hamburger.svg" alt="" />
+              </button>
+              <div
+                class="offcanvas offcanvas-end text-bg-dark bg-transparent menu-bg w-75 d-block d-md-none"
+                tabindex="-1"
+                id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel"
+              >
+                <div class="offcanvas-header justify-content-end">
+                  <button
+                    type="button"
+                    class="my-2 bg-transparent border-0"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  >
+                    <img class="" src="./assets/shared/icon-close.svg" alt="" />
+                  </button>
+                </div>
+                <div class="offcanvas-body mx-4 my-4">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href=".//index.html"
+                        ><b class="d-lg-inline d-md-none">00</b> Home</a
+                      >
+                    </li>
+                    <li class="nav-item py-3 py-md-0">
+                      <a class="nav-link text-white" href="#"
+                        ><b class="d-lg-inline d-md-none">01</b> Destination</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#"
+                        ><b class="d-lg-inline d-md-none">02</b> Crew</a
+                      >
+                    </li>
+                    <li class="nav-item py-3 py-md-0">
+                      <a class="nav-link text-white" href="#"
+                        ><b class="d-lg-inline d-md-none">03</b> Technology</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container d-lg-flex h-100 m-auto">
+      <div class="row mt-md-4">
+        <div class="col-12">
+          <div
+            class="row text-white text-center text-lg-start justify-content-center mt-5"
+          >
+            <div class="col-12 col-lg-6">
+              <h5 class="text-uppercase text-color">
+                So, you want to travel to
+              </h5>
+              <h1 class="text-uppercase py-3">Space</h1>
+              <div class="px-md-4 px-lg-0 pe-lg-5 me-lg-5">
+                <div class="pe-lg-5 me-lg-5">
+                  <div class="mx-md-5 mx-lg-0 mb-5">
+                    <p class="px-3 px-lg-0 text-color px-md-5">
+                      Let’s face it; if you want to go to space, you might as
+                      well genuinely go to outer space and not hover kind of on
+                      the edge of it. Well sit back, and relax because we’ll
+                      give you a truly out of this world experience!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-6 mt-5 pt-5 my-md-2">
+              <div class="row justify-content-lg-end mt-3 mt-md-0">
+                <div class="col-lg-5 rounded-circle bg-white py-5 mt-5">
+                  <div
+                    class="subheading-5 text-black text-uppercase text-center py-4 py-md-5"
+                  >
+                    Explore
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
