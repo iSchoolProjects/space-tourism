@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.title h2 {
+    font-family: Barlow Condensed;
+  
+}
+
+span {
+font-family: Barlow Condensed;
+opacity: 0.25;
+padding: 0.5rem;
+}
+
+h3 {
+    font-family: Bellefair;
+   
+}
+
+h1 {
+    font-family: Bellefair;
+   
+}
+
+p {
+    font-family: Barlow;
+    color: #D0D6F9;
+}
+
+.link {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/* Tablet */
+@media  (max-width:830px)  {
+
+    body {
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .title h2 {
+        font-family: Barlow Condensed;
+    }
+    
+    span {
+    font-family: Barlow Condensed;
+    opacity: 0.25;
+    padding: 0.5rem;
+    }
+    
+    h3 {
+        font-family: Bellefair;
+    }
+    
+    h1 {
+        font-family: Bellefair;
+    }
+    
+    p {
+        font-family: Barlow;
+        color: #D0D6F9;
+    }
+    
+    
+    
+    .link {
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    
+    }
+}
+
+/* Mobile design */
+@media  (max-width:768px)  {
+    body {
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .title h2 {
+        font-family: Barlow Condensed;
+        
+    }
+    
+    span {
+    font-family: Barlow Condensed;
+    opacity: 0.25;
+    padding: 0.5rem;
+    }
+    
+    h3 {
+        font-family: Bellefair;
+    }
+    
+    h1 {
+        font-family: Bellefair;
+    }
+    
+    p {
+        font-family: Barlow;
+        color: #D0D6F9;
+    }
+    
+    .link {
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    
+    }
+}
