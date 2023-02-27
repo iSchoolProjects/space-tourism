@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -14,13 +13,7 @@
     background-size: cover;
 }
 
-.planet-image{
-    width: 40%;
-}
 
-.planets-links{
-    width: 73%;
-}
 }
 
 @media screen and (min-width: 769px) {
@@ -29,21 +22,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-.planet-image{
-    width: 40%;
-}
-
-.planets-links{
-    width: 60%;
-}
-
-.row .padding-for-desktop{
-    padding-inline: 60px;
-}
 }
 
 body{
+    color: white;
     box-sizing: border-box;
     min-height: 100vh;
 }
