@@ -1,41 +1,109 @@
 :root {
-  --col-dark: #0b0d17;
-  --col-neutral: #d0d6f9;
-  --col-light: #ffffff;
-}
-
-h1,
-h2,
-h3,
-h4,
-.subheading-primary {
-  font-family: 'Bellefair', serif;
-}
-h5,
-p,
-.subheading-secondary {
-  font-family: 'Barlow Condensed', sans-serif;
-}
-
-h1 {
-  font-size: 9.375rem;
-}
-h2 {
-  font-size: 6.25rem;
-}
-h3 {
-  font-size: 3.5rem;
-}
-h4 {
-  font-size: 2rem;
-}
-h5,
-.subheading-primary {
-  font-size: 1.75rem;
+    --col-dark: #0b0d17;
+    --col-neutral: #d0d6f9;
+    --col-light: #ffffff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  .subheading-primary {
+    font-family: 'Bellefair', serif;
+  }
+  h5,
+  p,
+  .subheading-secondary {
+      font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  
+  h5,
+  .subheading-primary {
+    font-size: 1.75rem;
 }
 .subheading-secondary {
-  font-size: 0.875rem;
+    font-size: 0.875rem;
 }
-p {
-  font-size: 1.125rem;
+
+.text-color,.btn-close-color{
+    color:var(--col-neutral);
 }
+
+
+@media screen and (max-width: 768px) {
+body{
+    background-image: url(../assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+ h1{
+    font-size: 80px;
+ }
+ h5{
+    font-size: 16px;
+ }
+ p{
+    font-size: 15px;
+ }
+.menu-bg{
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.7742px);
+}
+
+.explore-btn-text {
+    font-size: 20px;
+}
+
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+
+h1{
+    font-size: 150px;
+}
+h5{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+ }
+ .explore-btn-text {
+    font-size: 32px;
+}
+
+.menu-bg{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(23.7742px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: url(../assets/home/background-home-desktop.jpg);
+        background-size: 106% 1335px;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        background-position: -71px 0;
+    }
+    .nav{
+        position: relative;
+    }
+    .nav::before{
+        content: '';
+        height: 1px;
+        position: absolute;
+        width: 60%;
+        background: var(--col-light);
+        opacity: .25;
+        left: -55%;
+        top: 50%;
+    }
+}
+
