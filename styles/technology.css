@@ -46,29 +46,6 @@ ul li a {
 }
 
 
-
-@media screen and (max-width:768px) {
- .vehicle {
+.vehicle {
     width:100%;
- }
-}
-
-
-@media screen and (min-width:768px) {
-    .vehicle {
-        width:100%;
-     }
-   
-}
-
-@media screen and (min-width:922px) {
-    .vehicle {
-        width:100%;
-     }
-}
-
-@media screen and (min-width:1400px) {
-    .vehicle {
-        width:100%;
-     }
 }
