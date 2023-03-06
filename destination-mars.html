@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Space tourism website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/destination.css" />
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+  <body class="background-image text-white">
+    <div class="container"> 
+      <h5 class="text-center text-md-start pb-2">
+        01 PICK YOUR DESTINATON
+      </h5>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+      <div class="row">
+        <div class="col-8 mx-auto col-lg-5 pe-lg-5 text-center text-lg-start">
+          <img class="w-100 mx-auto mx-lg-0 mt-lg-5 pt-lg-5 me-lg-5" src="assets/destination/image-mars.png" />
+        </div>
 
-  01 Pick your destination
+        <div class="col-12 col-lg-6">
+          <div class="row">
+          <div class="col-12 col-lg-6 text-center text-lg-start px-4 mx-auto ms-lg-0 d-block my-5 mt-lg-0 mt-lg-5">
+            <div class="px-5 px-lg-0 mx-md-5 mx-lg-0">
+            <ul class="d-flex justify-content-between ps-lg-0 ps-0 list-unstyled mx-md-5 mx-lg-0">
+           <li> 
+            <a class="text-decoration-none text-white" href="./destination-moon.html">MOON</a>
+            </li>
 
-  Moon
-  Mars
-  Europa
-  Titan
+            <li>
+            <a class="active text-decoration-none text-white" href="./destination-mars.html">MARS</a>
+            </li>
 
-  Mars
+          <li> 
+          <a class="text-decoration-none text-white" href="./destination-europa.html">EUROPA</a>
+            </li>
 
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+         <li> 
+         <a class="text-decoration-none text-white" href="./destination-titan.html">TITAN</a>
+            </li>
+          </ul>
+          </div>
+          </div>
+          </div>
+
+          <h2 class="text-center text-lg-start mb-4 my-lg-5">MARS</h2>
+          <p class="text-center text-lg-start pb-4 my-lg-5 border-bottom border-white border-bottom-2 border-opacity-25">
+            Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
   the tallest planetary mountain in our solar system. It’s two and a half times 
   the size of Everest!
+          </p>
 
-  Avg. distance
-  225 mil. km
-
-  Est. travel time
-  9 months
-</body>
+          <!--section below the line-->
+          <div class="row my-5">
+            <div class="col-12 col-md-6 text-center text-lg-start mt-2">
+            <p>AVG. DISTANCE</p>
+            <h5>225 MIL. KM</h5>
+            </div>
+ 
+            <div class="col-12 col-md-6 text-center text-lg-start mt-5 mt-md-2">
+              <p>EST. TRAVEL TIME</p>
+              <h5>9 MONTHS</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
