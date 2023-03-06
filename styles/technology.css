@@ -1,0 +1,51 @@
+
+body { 
+        background-image: url("../assets/technology/background-technology-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;          
+}
+    
+span {
+    color: #FFFFFF;
+    opacity:25%;
+}
+
+
+
+
+h5 {
+    color:#D0D6F9;
+}
+
+p {
+    color:#D0D6F9;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li {
+    background-color: transparent;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    outline:1px solid rgba(255, 255, 255, .25);
+    flex-wrap: wrap;
+}
+ul li a {
+    color: #FFFFFF;
+    width: 100%;
+}
+.active,.active a{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+
+.vehicle {
+    width:100%;
+}
