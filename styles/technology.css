@@ -3,7 +3,8 @@ body {
         background-image: url("../assets/technology/background-technology-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        height:100vh;          
+        height:100vh;     
+             
 }
     
 span {
@@ -23,10 +24,10 @@ p {
     font-size: 18px;
 }
 
-ul{
+main ul{
     list-style-type: none;
 }
-ul li {
+main ul li {
     background-color: transparent;
     border-radius: 50%;
     aspect-ratio: 1;
@@ -35,12 +36,13 @@ ul li {
     align-items: center;
     outline:1px solid rgba(255, 255, 255, .25);
     flex-wrap: wrap;
+    
 }
-ul li a {
+main ul li a {
     color: #FFFFFF;
     width: 100%;
 }
-.active,.active a{
+main .active,.active a{
     background-color: #FFFFFF;
     color: #000;
 }
